@@ -11,6 +11,19 @@
     background-color: rgba(253, 58, 10, 0.651);
 }
 
+.primaria {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(189, 39, 1, 0.596);
+    font-size: 1.5em;
+    border: 2px solid rgba(189, 39, 1, 0.596);
+    width: auto;
+    padding: 10px;
+    wigth: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -79,4 +92,23 @@ a:hover {
     width: 90%;
     font-size: 50px;
 
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(189, 39, 1, 0.596);
+    width: auto;
+}
+
+img {
+    width: auto%;
+    height: auto;
+    
+}
+
+.dialogo {
+    border: 2px solid rgba(189, 39, 1, 0.596);
+    width: 79%;
+    font-size: 10px;
 }
